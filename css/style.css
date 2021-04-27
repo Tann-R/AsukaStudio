@@ -19,7 +19,7 @@ body {
     margin:auto;
 }
 .navbar {
-    margin-top: 20px;
+    padding-top: 20px;
     min-height:53px;
     max-width:50%;
     min-width:0%;
@@ -109,11 +109,11 @@ body {
     color:transparent;
     background-clip:text;
      -webkit-background-clip:text;
-     text-shadow:var(--acc3) 2px 2px 2px;
+     text-shadow:var(--acc4) 2px 2px 2px;
 }
 .content h2 {
     font-style:italic;
-    color:var(--acc3);
+    color:var(--acc4);
     text-shadow:var(--blk) 2px 2px 2px;
     padding-left:50px;
 }
@@ -145,6 +145,7 @@ body::-webkit-scrollbar-thumb{
     font-family: 'Mr De Haviland', cursive;
 }
 button {
+    margin-top: 20px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     margin-bottom:0px;
