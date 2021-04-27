@@ -19,6 +19,7 @@ body {
     margin:auto;
 }
 .navbar {
+    margin-top: 20px;
     min-height:53px;
     max-width:50%;
     min-width:0%;
@@ -38,6 +39,7 @@ body {
     display:inline-block;
     text-align:center;
     margin:auto;
+    margin-bottom:0px;
 }
 .navbar .nav-inactive:hover {
     font-weight:bold;
@@ -59,6 +61,7 @@ body {
     display:inline-block;
     text-align:center;
     margin:auto;
+    margin-bottom:0px;
 }
 .banner {
     width:60%;
@@ -113,7 +116,6 @@ body {
     background:var(--dkgry);
     padding:25px;
     border-radius:25px;
-    margin-top:20px;
     margin-bottom:20px;
     border-bottom:double 9px var(--acc2);
     border-right:double 9px var(--acc2);
@@ -161,4 +163,5 @@ body::-webkit-scrollbar-thumb{
 button {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    margin-bottom:0px;
 }
