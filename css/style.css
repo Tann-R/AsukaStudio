@@ -72,22 +72,6 @@ body {
     border:rgba(0,0,0,.3) 20px solid;
     border-radius: 25px;
 }
-.sfw-parallax1 {
-    background-image:url('resources/sfw001.png');
-    height:200px;
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover
-}
-.sfw-parallax2 {
-    background-image:url('resources/sfw002.png');
-    height:200px;
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover
-}
 .stickyfooter {
     background:var(--dkgry);
     color:var(--acc3);

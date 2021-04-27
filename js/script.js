@@ -22,9 +22,7 @@ function active(nav) {
 let home = '<h1>Home page.</h1>'
 + '<h2>This is the home page.</h2>'
 + '<p>Your content here.</p>'
-+ '<div class="sfw-parallax1"></div>'
 + '<p>More content here.</p>'
-+ '<div class="sfw-parallax2"></div>'
 + '<p>Still more content.</p>'
 
 let sfw = '<h1>SFW Gallery</h1>'
