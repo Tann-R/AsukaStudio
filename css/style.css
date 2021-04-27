@@ -153,4 +153,7 @@ body::-webkit-scrollbar-thumb{
     color: var(--acc3);
     text-shadow: 3px 3px 0px var(--blk);
     font-family: 'Mr De Haviland', cursive;
-  }
+}
+button {
+    border-radius: 10px;
+}
