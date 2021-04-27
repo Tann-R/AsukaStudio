@@ -27,6 +27,7 @@ body {
     min-width:0%;
 }
 .navbar .nav-inactive {
+    background: var(--dkgry);
     text-transform:lowercase;
     font-size:1.2em;
     color: var(--acc3);
@@ -38,7 +39,8 @@ body {
     letter-spacing:4px;
     display:inline-block;
     text-align:center;
-    margin:auto;}
+    margin:auto;
+}
 .navbar .nav-inactive:hover {
     font-weight:bold;
     color: var(--acc1);
@@ -47,6 +49,18 @@ body {
 }
 .navbar .nav-active {
     background:var(--dkgry);
+    text-transform:lowercase;
+    font-size:1.2em;
+    color: var(--acc2);
+    font-family:tahoma,serif;
+    text-shadow:1px 1px 1px var(--acc4);
+    text-decoration:none;
+    padding:15px;
+    min-width:50px;
+    letter-spacing:4px;
+    display:inline-block;
+    text-align:center;
+    margin:auto;
 }
 .banner {
     width:60%;
@@ -54,7 +68,8 @@ body {
     box-shadow:inset var(--blk) 0px 0px 100px;
     min-height:200px;
     margin:auto;
-    border:var(--blk) 20px solid;
+    border:rgba(0,0,0,.3) 20px solid;
+    border-radius: 25px;
 }
 .sfw-parallax1 {
     background-image:url(resources/sfw001.png);
