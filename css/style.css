@@ -57,7 +57,7 @@ body {
     border:var(--blk) 20px solid;
 }
 .sfw-parallax1 {
-    background-image:url(/resources/sfw001.png);
+    background-image:url(resources/sfw001.png);
     height:200px;
     background-attachment:fixed;
     background-position:center;
@@ -65,7 +65,7 @@ body {
     background-size:cover
 }
 .sfw-parallax2 {
-    background-image:url(/resources/sfw002.png);
+    background-image:url(resources/sfw002.png);
     height:200px;
     background-attachment:fixed;
     background-position:center;
